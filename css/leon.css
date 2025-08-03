@@ -17,6 +17,9 @@ body {
 }
 
 /* end of the global rules */
+.gogo{
+    font-size: 200px;
+}
 .container {
     padding-left: 15px;
     padding-right: 15px;
