@@ -1,0 +1,43 @@
+/* start of the variables  */
+
+/* end of the variables */
+
+/*start of the global rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* end of the global rules */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.test {
+    background-color: rgb(255, 255, 0);
+}
+
+@media(Max-WIDTH:767PX) {}
+
+@media(Min-WIDTH:768PX) {
+    .container{
+        width: 750;
+    }
+}
+
+@media(min-WIDTH:992PX) {}
+
+@media(min-WIDTH:1200PX) {}
